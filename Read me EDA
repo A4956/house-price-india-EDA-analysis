@@ -1,0 +1,47 @@
+House Price India Exploratory Data Analysis
+
+This is an exploratory data analysis (EDA) of the House Price India dataset, featuring univariate analysis, bivariate analysis, and business insights extracted using Pandas.
+
+📊 Project Summary- 
+
+I explored real estate datasets of houses in India to examine:
+
+The distribution of individual variables (Univariate Analysis) such as the price of a house, its bedrooms, and skewness;
+Correlation between variables (Bivariate Analysis) such as area and price, number of floors, presence of a waterfront, and location;
+Business insights that come out of this analysis.
+📁 Files
+File	Description
+House_Price_India_EDA.ipynb	Jupyter notebook with all of the code and interpretation
+House_Price_India.csv	Dataset used for the analysis
+🛠️ Tools Used
+Python
+Pandas
+NumPy
+SciPy (skewness)
+Matplotlib
+🔍 Questions Answered
+The average, median, and standard deviation house price.
+The most common number of bedrooms.
+price skewed.
+The average price by the number of bedrooms.
+The living area correlate with a house price (excluding basement).
+Any expensive houses with a small area.
+The average price by the number of floors/waterfront.
+The minimum and maximum price of a house.
+location (zipcode) has the highest average house price.
+Final business insights.
+💡 Key Insights
+A right-skewed, high-variance market: the price of houses is skewed (4.27) with a long tail stretching towards the higher values. The mean (538,932) is significantly higher than the median (450,000), suggesting the presence of luxury real estate affecting the average price.
+3-4 bedroom homes dominate the market, comprising over 77% of all houses.
+Presence of a waterfront increases the price of a house by an average of 3x (~1,641,902 vs ≈530,417 for houses without a waterfront), and this premium is consistent across all number of floors.
+Living area has only a moderate correlation (0,62) with the price; 139 houses have a small area (in terms of the first quartile) but are in the top 25% by price, suggesting the importance of grade, waterfront, and location.
+The price range spans 99.5x (78,000 to 7,700,000), indicating that the dataset encompasses both affordable homes and ultra-luxury estates, suitable for diverse budgets.
+The location has a significant impact on the price, with the top postal code (122071) having an average house price of more than 4x higher than the average price of all houses in the dataset.
+🚀 How to Run
+Clone this repository
+Open the House_Price_India_EDA.ipynb notebook in Google Colab or Jupyter
+Make sure that the House_Price_India.csv file is in the same directory as the notebook (you may need to amend the path in the first cell)
+Run all cells
+👤 Author
+
+Aarian Safin
